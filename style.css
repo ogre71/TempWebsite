@@ -1,0 +1,49 @@
+.ol-black {
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black,
+        -2px 0 0 black,
+        2px 0 0 black,
+        0 2px 0 black,
+        0 -2px 0 black;}
+
+.ol-bb {
+    color: white;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black,
+        -4px 0 0 black,
+        4px 0 0 black,
+        0 4px 0 black,
+        0 -4px 0 black;}
+
+.ol-white {
+    color: black;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white,
+        -2px 0 0 white,
+        2px 0 0 white,
+        0 2px 0 white,
+        0 -2px 0 white;}
+
+.ol-wb {
+    color: black;
+    text-shadow:
+        -2px -2px 0 white,
+        2px -2px 0 white,
+        -2px 2px 0 white,
+        2px 2px 0 white,
+        -4px 0 0 white,
+        4px 0 0 white,
+        0 4px 0 white,
+        0 -4px 0 white;}
+
+.anti-link {text-decoration: none; color: black;}
