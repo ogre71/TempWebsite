@@ -1,34 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Academeia</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body style="
-                 background-image: url(background.jpg);
-                 background-repeat: no-repeat;
-                 background-attachment: fixed;
-                 background-size: cover;
-                 text-align: center
-                 ">
-        <h1 style="font-size: 45px;" class="ol-black">
-            <strong>ACADEMEIA</strong><br>
-                <button style="background-color: white;"><a class="anti-link" href="index.html"><strong>HOME</strong></a></button>
-                <button style="background-color: white;"><a class="anti-link" href="contact.html"><strong>CONTACT</strong></a></button>
-                <button style="background-color: white;"><a class="anti-link" href="about.html"><strong>ABOUT</strong></a></button>
-                <button style="background-color: white;"><a class="anti-link" href="games.html"><strong>GAMES</strong></a></button>
-                <button style="background-color: white;"><a class="anti-link" href="account.html"><strong>ACCOUNT</strong></a></button>
-        </h1>
-        <br>
-        <br>
-        <div>
-            
-            <a href="https://www.python.org/about" target="_blank"><img src="PY.png" width="200px"></a>
-            <a href="https://mcreator.net/about" target="_blank"><img src="MC.png" width="200px"></a>
-            <a href="https://scratch.mit.edu/about" target="_blank"><img src="S.png" width="200px"></a>
-            <a href="https://godotengine.org/" target="_blank"><img src="GD.png" width="200px"></a>
-            <a href="https://unity.com/" target="_blank"><img src="CS.png" width="200px"></a>
-            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Academeia</title>
+</head>
+<body><nav><div><img src="img/academeialogo.png">
+<a href="eng/home.html">Home</a>
+<a href="eng/about.html">About</a>
+<a href="eng/stuff.html">Stuff</a>
+<a href="eng/other.html">Other</a><div>
+
+<a href="eng/account.html">Sign in</a>
+<a href="eng/store.html">Store</a>
+<div><a onclick="toggleLangSelect('')"><img src="img/languageicon.png"></a></div></div></div><br><br><hr></nav><div id="langSelect">Select Your Language<br>
+<a href="eng/home.html">● English 🇺🇸</a><br>
+<a href="deu/home.html">● Deutsch 🇩🇪</a><br>
+<a href="tok/home.html">● toki pona <img style="height:18px" src="img/toki_pona.png"></a></div>
+<div id="home">
+    <section>
+        <h2 class="index-h2">Start Learning</h2>
+        <p>Explore our interactive coding tutorials and unlock the world of programming.</p>
+        <!-- Add your learning content here -->
+
+        <!-- Example: -->
+        <div class="index-games-section">
+            <div class="index-game-card">
+                <h3>Code Challenge 1</h3>
+                <p>Test your coding skills with our first challenge. Are you up for it?</p>
+                <!-- Add game content or link here -->
+            </div>
+            <div class="index-game-card">
+                <h3>Python Puzzles</h3>
+                <p>Solve fun Python puzzles and enhance your problem-solving abilities.</p>
+                <!-- Add game content or link here -->
+            </div>
+            <!-- Add more game cards as needed -->
         </div>
-    </body>
+    </section>
+</div>
+</body>
 </html>
